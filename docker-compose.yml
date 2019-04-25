@@ -8,7 +8,7 @@ web:
     links:
         - php
 php:
-    image: php:7-fpm
+    image: nanoninja/php-fpm:latest
     volumes:
         - ./:/var/www
     links:
